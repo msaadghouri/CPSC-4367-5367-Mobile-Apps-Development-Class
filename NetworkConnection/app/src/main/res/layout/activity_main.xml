@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="project.networkconnection.MainActivity">
+
+
+    <Button
+        android:id="@+id/checkNetwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Network Connection" />
+
+    <Button
+        android:id="@+id/toServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write data to server" />
+
+    <Button
+        android:id="@+id/fromServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch from server" />
+
+    <Button
+        android:id="@+id/fromMySQL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch from MySQL" />
+
+    <TextView
+        android:id="@+id/snackBarTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+</LinearLayout>
